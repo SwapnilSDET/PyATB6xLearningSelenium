@@ -4,7 +4,7 @@
 // Find the Email id** and enter the email as augtest_040823@idrive.com
 // Find the Pass inputbox** and enter 123456 .
 // Find and Click on the sign in button
-// Verify that the error message is shown "_**Your email, password, IP address or location did not match"**_
+// Verify that the error message is shown "Your free trial has expired!"
 """
 
 import time

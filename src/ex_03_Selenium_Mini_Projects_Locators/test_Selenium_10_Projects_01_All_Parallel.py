@@ -116,5 +116,3 @@ def test_project_1_katalon_positive():
     time.sleep(5)
 
     driver.quit()
-
-#

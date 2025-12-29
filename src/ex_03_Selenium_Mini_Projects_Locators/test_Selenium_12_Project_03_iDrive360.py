@@ -5,6 +5,7 @@
 // Find the Pass inputbox** and enter 123456 .
 // Find and Click on the sign in button
 // Verify that the error message is shown "Your free trial has expired!"
+
 """
 
 import time
@@ -12,10 +13,17 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
+
 def test_iDrive360():
-    chrome_options = Options()
-    chrome_options.add_argument("--start-maximized")
-    driver = webdriver.Chrome(options=chrome_options)
+
+    # If the test need to run with Chrome browser
+    # chrome_options = Options()
+    # chrome_options.add_argument("--start-maximized")
+    # driver = webdriver.Edge(options=chrome_options)
+
+    # If the test need to run with Edge browser
+    driver = webdriver.Edge()
+    driver.maximize_window()
 
     driver.get("https://www.idrive360.com/enterprise/login")
 

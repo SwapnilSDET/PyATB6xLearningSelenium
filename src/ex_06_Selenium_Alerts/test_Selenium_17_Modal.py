@@ -18,7 +18,7 @@ def test_alerts_js_alert():
     driver.get("https://www.makemytrip.com/")
     driver.maximize_window()
 
-    # Adding explicit wait
+    # Adding explicit wait - Add a tuple in until block
     WebDriverWait(driver=driver, timeout=5).until(EC.visibility_of_element_located((By.XPATH, "//span[@class='commonModal__close']")))
 
     close_modal = driver.find_element(By.XPATH, "//span[@class='commonModal__close']")

@@ -1,3 +1,10 @@
+"""
+✅ Task 1:  Select box Automation.
+Application URL: https://awesomeqa.com/practice.html
+Objective: Automate the interaction with select box elements available on the practice page using Selenium WebDriver
+"""
+
+
 import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

@@ -1,3 +1,15 @@
+"""
+✅ Task 2: Click on a Specific State (Example: Maharashtra)
+URL :- https://www.amcharts.com/svg-maps/?map=india
+Locate Maharashtra using SVG path
+Click on Maharashtra
+Validate:
+    Tooltip OR
+    State name is displayed OR
+    Any visual highlight happens
+"""
+
+
 import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

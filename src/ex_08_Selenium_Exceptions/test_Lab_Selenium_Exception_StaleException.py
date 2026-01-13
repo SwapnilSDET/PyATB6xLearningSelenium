@@ -19,7 +19,7 @@ def test_stale_element_exp_demo():
 
     try:
         textarea = driver.find_element(By.NAME, "q")
-        driver.refresh() # To generate Stale element exception
+        driver.refresh()  # To generate Stale element exception
         textarea.send_keys("The Testing Academy")
         print("End of the test")
     except StaleElementReferenceException as see:
